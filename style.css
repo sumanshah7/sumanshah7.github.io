@@ -64,6 +64,7 @@ div {
     border-radius: 5px;
     margin-top: 10PX; 
     transform: rotate(1deg);
+  
   }
 
   .ft1{
@@ -78,6 +79,8 @@ div {
     padding: 10px;
     border-radius: 5px;
     margin-top: 10PX; 
+    transform: translate(50px, 50px);
+    
   }
 
   .ft2{
