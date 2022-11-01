@@ -24,6 +24,18 @@
     border-width: 7px;
     border-radius: 10px;
     border-color: darkslategray;
+    max-width: 1000px;
+    max-height: 100%;
+   
+}
+
+.travel{
+    padding: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: rgb(179, 154, 86);
+    
 }
 
 div {
@@ -39,6 +51,80 @@ div {
     margin-top: 10PX;  
   }
 
+  .ai{
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 20px;
+    border: 8px solid red;
+    background: rgb(164, 164, 75);
+    background-color:rgb(66, 114, 98);
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10PX; 
+    transform: rotate(1deg);
+  }
+
+  .ft1{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 8px solid rgb(160, 77, 77);
+    background: rgb(63, 159, 138);
+    background-color:rgb(18, 71, 53);
+    color: rgb(163, 122, 122);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10PX; 
+  }
+
+  .ft2{
+
+
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 400px;
+        height: 150px;
+        padding: 20px;
+        border: 8px solid rgb(160, 77, 77);
+        background: rgb(63, 159, 138);
+        background-color:rgb(18, 71, 53);
+        color: rgb(163, 122, 122);
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10PX; 
+      }
+
+      #t1{
+        position: sticky;
+        box-sizing: content-box;
+        /* position: sticky; */
+        top: 0;
+        padding: 5px;
+      }
+
+
+  .ft3{
+    position: -webkit-sticky;
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom:0;
+    padding: 20px;
+    border: 8px solid rgb(160, 77, 77);
+    background: rgb(63, 159, 138);
+    background-color:rgb(18, 71, 53);
+    color: rgb(163, 122, 122);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10PX; 
+  }
+  
+  
+
   p{
     overflow: auto;
     height: 65px;
@@ -46,18 +132,16 @@ div {
   
   .content-box {
     box-sizing: content-box;
-    /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
-       Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
-       Content box width: 160px
-       Content box height: 80px */
+    /* position: sticky; */
+    top: 0;
+    padding: 5px;
+    
   }
   
   .border-box {
     box-sizing: border-box;
-    /* Total width: 160px
-       Total height: 80px
-       Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
-       Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+    /* transform:rotate(30deg); */
+
   }
 
 
