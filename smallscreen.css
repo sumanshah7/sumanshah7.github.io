@@ -18,3 +18,13 @@ table { width: 90%; }
     }
   }
   
+  @media (max-width: 600px) {
+    .row, .topnav {   
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    /* display flex container items as rows in a column */
+    * { flex-direction: column; }
+   }

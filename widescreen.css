@@ -1,6 +1,6 @@
 
 
-   .navbar { display: flex; }
+   .topnav { display: flex; }
 
    .topnav { display: inline-block; }
 
@@ -90,6 +90,7 @@
   .topnav {
     overflow: hidden;
     background-color: #333;
+    display: flex;
   }
   
   /* Style the topnav links */
@@ -100,10 +101,108 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    flex-grow: inherit;
   }
   
   /* Change color on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+  }
+
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  /* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Header/logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .topnav {
+    display: flex;
+    background-color: DodgerBlue;
+    
+  }
+  
+  .topnav > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+  #content {
+    display: flex;
+    width: 500px;
+  }
+  
+  #content div {
+    flex-basis: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .box {
+    flex-shrink: 1;
+  }
+  
+  .box1 {
+    flex-shrink: 2;
+  }
+
+  body {
+    margin: 40px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: rgb(182, 108, 108);
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
   }
