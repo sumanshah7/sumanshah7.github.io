@@ -1,0 +1,7 @@
+img { max-width: 200px; max-height: 200px; }
+table { width: 90%; }
+
+@media screen and (max-width: 600px) {
+    /* display flex container items as rows in a column */
+    * { flex-direction: column; }
+   }
