@@ -1,6 +1,109 @@
-@media screen and (min-width: 800px) {
-    img { max-width: 500px; max-height: 300px; }
-    table { width: 800px; }
-   }
+
 
    .navbar { display: flex; }
+
+   .topnav { display: inline-block; }
+
+   #topic{
+    text-align: center;
+}
+
+.shonen{
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+   /* padding: 10px; */
+}
+
+.sports{
+    background-color: rgb(111, 100, 165);
+    color: black;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+
+
+
+.sp{
+    padding: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    /* max-width: 1000px; */
+    max-height: 100%;
+   
+}
+
+.sn{
+    padding: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    /* max-width: 1000px; */
+    max-height: 100%;
+   
+}
+
+.title{
+   
+    text-align: center; 
+    color: rgb(78, 165, 93);
+    border-style: outset;
+    border-radius: 2px;
+    border: solid;
+    text-transform: uppercase;
+    
+}
+
+#s1{
+    padding: 10px;
+    border: solid;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: rgb(198, 86, 42);
+    
+}
+
+#s2{
+    padding: 10px;
+    border: solid;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: rgb(21, 69, 140);
+}
+
+
+
+@media screen and (min-width: 800px) {
+    img { max-width: 200px; max-height: 200px; }
+    table { width: 90%; }
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
