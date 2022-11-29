@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color:bisque; color:rgb(236, 79, 79);background-image: url(social1.jpeg);">
+    <!-- <body style="background-color:bisque; color:rgb(236, 79, 79);text-align: center; background-image: url(social1.jpeg); background-repeat: no-repeat; "> -->
+
+    
+    <form  method="get" id="nameform">
+        <table>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Name" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="Password" placeholder="Password" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="email" placeholder="example@gmail.com" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    About:
+                </td>
+                <td>
+                    <textarea name="" rows="4" cols="20" placeholder="Describe about yourself.."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ethnicity:
+                </td>
+                <td>
+                    
+                    <select name="" id="">
+                     <option value="asian">Asian</option>
+                     <option value="hispanic">Hispanic</option>
+                     <option value="american">American</option>
+                     <option value="no response">No Response</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hobbies:
+                </td>
+                <td>
+                    <select width=300 style="width: 350px" size="8" multiple>
+                    <option value='traveling'>Traveling</option>
+                    <option value='rafting'>Rafting</option>
+                    <option value='baseball'>Baseball</option>
+                    <option value='video games'>Video Games</option>
+                    <option value='reading'>Reading</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Programming Languages:
+                </td>
+                <td>
+                    <input type="checkbox" id="p1" name="p1" value="Python">
+                    <label for="p1"> Python</label><br>
+                    <input type="checkbox" id="p2" name="p2" value="Java">
+                    <label for="p2"> Java</label><br>
+                    <input type="checkbox" id="p3" name="p3" value="C#">
+                    <label for="p3"> C#</label><br>
+                    <input type="checkbox" id="p4" name="p4" value="C+">
+                    <label for="p4"> C+</label><br>
+                    <input type="checkbox" id="p5" name="p5" value="HTML">
+                    <label for="p5"> HTML</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date" name="bday">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" form="nameform" value="Submit">Submit</button>                </td>
+                <td>
+                    <button type="reset" form="nameform" value="Reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+<br>
+<br>
+<a href = "index.html"> Back To Home page</a>
+</body>
+</html>
