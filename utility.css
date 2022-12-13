@@ -1,0 +1,28 @@
+.text-center{
+    text-align: center;
+  }
+  
+  .bg-blue{
+    background: rgb(88, 126, 191);
+  }
+
+  
+  
+  .mx-auto{
+    margin: auto;
+  }
+
+  .flex{
+    display:flex;
+    width: 300px;
+    height: 335px;
+    border: 2px solid black;
+    border-radius: 8px;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }

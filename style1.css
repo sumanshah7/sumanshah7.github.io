@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Rubik+Gemstones&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  .button{
+    width: 62px;
+    padding: 18px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .row{
+    margin: 2px 0;
+  }
+
+  .row input{
+    width: 280px;
+    font-size: 18px;
+      margin: 0;
+      padding: 9px 1.5px;
+      border: 2.2px solid black;
+      border-radius: 5px;
+  }
